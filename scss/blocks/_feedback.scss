@@ -1,0 +1,125 @@
+.feedback {
+    margin-bottom: 247px;
+}
+
+.feedback__inner {
+    display: flex;
+}
+
+.feedback__iframe {
+    // width: 462px;
+    height: 652px;
+    border: none;
+}
+
+.feedback__box {
+    width: 100%;
+    height: 652px;
+    padding-top: 62px;
+    padding-bottom: 74px;
+    background-color: $main-color;
+    background-image: url(../images/fish-group.svg);
+}
+
+.feedback__box-inner {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin-left: 166px;
+}
+
+.feedback__title {
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.feedback__text {
+    margin-top: 0;
+    margin-bottom: 29px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: $rarely-color;
+}
+
+.feedback__name-input, .feedback__email-input {
+    width: 375px;
+    height: 50px;
+    margin-bottom: 14px;
+    padding: 16px 22px 13px;
+    background-color: #fff;
+    border: 2px solid transparent;
+    
+    &::placeholder {
+        font-size: 16px;
+        line-height: 21px;
+        color: $rarely-color;
+    }
+    
+    &:focus {
+        border: 2px solid #FFBD54;
+        outline: #FFBD54;
+    }
+}
+
+.feedback__textarea {
+    width: 375px;
+    min-height: 165px;
+    margin-bottom: 30px;
+    resize: vertical;
+    padding: 17px 22px;
+    border: 2px solid transparent;
+    
+    &::placeholder {
+        color: $rarely-color;
+    }
+    
+    &:focus {
+        border: 2px solid #FFBD54;
+        outline: #FFBD54;
+    }
+}
+
+.feedback__submit-btn {
+    display: inline-block;
+    padding: 14px 50px;
+    background-color: #FFBD54;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+    transition: all 0.4s ease;
+
+
+    &:hover {
+        background-color: $main-color;
+        color: #FFBD54;
+    }
+
+    &:active {
+        opacity: 0.6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

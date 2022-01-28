@@ -1,0 +1,80 @@
+.subscribe {
+    margin-bottom: 151px;
+    padding-top: 198px;
+    padding-bottom: 180px;
+    background-image: url(../images/bg-dog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subscribe__inner {
+    padding-left: 222px;
+}
+
+.subscribe__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.subscribe__input {
+    width: 335px;
+    height: 50px;
+    margin-right: 21px;
+    padding: 12px 22px;
+    background-color: #FFFFFF;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    color: $main-color;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    
+    
+    &:focus {
+        border: 2px solid #FFBD54;
+        outline: #FFBD54;
+    }
+    
+    &::placeholder {
+        color: $rarely-color;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.subscribe__btn {
+    width: 188px;
+    height: 50px;
+    padding: 15px 53px 14px 51px;
+    background-color: $main-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+
+    &:hover {
+        background-color: #FFBD54;
+        color: $main-color;
+    }
+    
+    &:active {
+        opacity: 0.6;
+    }
+}
+
+
+
+
+
+
+
+
+
+

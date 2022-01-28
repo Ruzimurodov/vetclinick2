@@ -1,0 +1,54 @@
+.hero {
+    background-image: url(../images/dog-rabbit-cat.png), url(../images/toti.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 540px) calc(50% - 86px), calc(50% + 685px) calc(50% + 225px);
+    padding-top: 153px;
+    padding-bottom: 311px;
+}
+
+.hero__inner {
+    padding-right: 32px;
+    padding-left: 670px;
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 29px;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 64px;
+    color: $main-color;
+}
+
+.hero__title-blcolor {
+    color: #78C0DE;
+}
+
+.hero__text {
+    margin-top: 0;
+    margin-right: 113px;
+    margin-bottom: 38px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: $rarely-color;
+}
+
+.hero__link {
+    @include link-style($main-color);
+    padding: 15px 47px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    transition: all 0.5s ease;
+    
+    &:hover {
+        color: $main-color;
+        background-color: #FFBD54;
+    }
+    
+    &:active {
+        opacity: 0.6;
+    }
+}
