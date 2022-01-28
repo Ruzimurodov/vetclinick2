@@ -12,6 +12,18 @@
     justify-content: space-between;
 }
 
+.footer-logo {
+    transition: opacity 0.4s ease;
+
+    &:hover {
+        opacity: 0.8;
+    }
+    
+    &:active {
+        opacity: 0.6;
+    }
+}
+
 .footer-logo__img {
     width: 158px;
     height: 77px;
